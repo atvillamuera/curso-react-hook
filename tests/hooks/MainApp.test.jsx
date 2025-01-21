@@ -32,6 +32,8 @@ describe('Pruebas en MainApp', () => {
         );
 
         expect(screen.getByText('AboutPage')).toBeTruthy();
+
+        screen.debug();
      });
 
 
